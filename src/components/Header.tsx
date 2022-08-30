@@ -5,10 +5,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
+import logo from 'next-seo/lib/jsonld/logo';
 
 const Menu = () => {
   const { navigation, company } = config;
-  const { name: companyName, logo } = company;
+  const { logo } = company;
 
   return (
     <>
@@ -25,13 +26,13 @@ const Menu = () => {
       <Popover>
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
-            className="relative flex items-center justify-between sm:h-10 lg:justify-start"
+            className="relative flex items-center justify-between sm:h-10 lg:justify-between"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto">
+              <div className="flex items-center justify-between w-full md:w-auto pl-5">
                 <a href="#">
-                  <img alt="logo" className="h-16 w-20 sm:h-16" src={logo} />
+                  <img alt="logo" className="h-96 w-64 sm:h-16" src={logo} />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
@@ -52,14 +53,14 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
+                  className="font-medium text-white hover:text-gray-900"
                 >
                   {item.name}
                 </Link>
               ))}
               <a
                 href="#"
-                className={`font-medium text-primary hover:text-secondary`}
+                className={`font-medium text-white hover:text-secondary`}
               >
                 Timeline
               </a>
@@ -111,12 +112,6 @@ const Menu = () => {
                   </Link>
                 ))}
               </div>
-              {/* <a
-                href={callToAction.href}
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
-              >
-                {callToAction.text}
-              </a> */}
             </div>
           </Popover.Panel>
         </Transition>

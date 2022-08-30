@@ -12,16 +12,16 @@ const Content = () => {
     >
       <div className={``}>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-white`}
         >
           {content.title}
         </h1>
         <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-white`}
         >
           {content.subtitle}
         </h1>
-        <p className={`text-gray-600`}>{content.description}</p>
+        <p className={`text-white`}>{content.description}</p>
       </div>
     </section>
   );
