@@ -6,10 +6,10 @@ const Content = () => {
   const { content } = config;
 
   return (
-    <section className={`bg-background py-8`} id="content">
-      <div className={``}>
-        <h1>image</h1>
-      </div>
+    <section
+      className={`mt-10 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28`}
+      id="content"
+    >
       <div className={``}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}

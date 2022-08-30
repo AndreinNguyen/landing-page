@@ -3,6 +3,10 @@ module.exports = {
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
   darkMode: false,
   theme: {
+    "fontFamily": {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      "krona-one": "[Krona One]"
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
@@ -21,10 +25,17 @@ module.exports = {
         secondary: '#a12c34',
         tertiary: '#99a0a3',
         border: '#1a2e35',
-        background: '#ffffff',
+        background: '#000514',
       },
       animation: {
         vote: 'vote 1s ease-in-out',
+      },
+      backgroundImage: {
+        "test": "#ec4755",
+        'hero-pattern': "url('/assets/images/background.png')",
+      },
+      backgroundPosition: {
+        'bottom-custom': 'center bottom -7rem',
       },
       keyframes: {
         vote: {
