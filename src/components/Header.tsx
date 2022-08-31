@@ -5,32 +5,21 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
-import logo from 'next-seo/lib/jsonld/logo';
+// import logo from 'next-seo/lib/jsonld/logo';
 
 const Menu = () => {
   const { navigation, company } = config;
   const { logo } = company;
 
   return (
-    <>
-      <svg
-        className={`hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-background transform translate-x-1/2`}
-        fill="currentColor"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <polygon points="50,0 100,0 50,100 0,100" />
-      </svg>
-
-      <Popover>
+      <Popover className="menu--popover">
         <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
           <nav
             className="relative flex items-center justify-between sm:h-10 lg:justify-between"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-              <div className="flex items-center justify-between w-full md:w-auto pl-5">
+              <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <img alt="logo" className="h-96 w-64 sm:h-16" src={logo} />
                 </a>
@@ -116,7 +105,6 @@ const Menu = () => {
           </Popover.Panel>
         </Transition>
       </Popover>
-    </>
   );
 };
 

@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     "fontFamily": {
       'sans': ['ui-sans-serif', 'system-ui'],
-      "krona-one": "[Krona One]"
+      "krona-one": "[Krona One]",
+      "whyte": "[Whyte]"
     },
     fontSize: {
       xs: '0.75rem',
@@ -26,6 +27,9 @@ module.exports = {
         tertiary: '#99a0a3',
         border: '#1a2e35',
         background: '#000514',
+      },
+      height: {
+        "65vh": "65vh"
       },
       animation: {
         vote: 'vote 1s ease-in-out',
