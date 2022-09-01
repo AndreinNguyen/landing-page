@@ -8,6 +8,7 @@ import LazyShow from '../components/LazyShow'
 import Timeline from '../components/Timeline'
 import Introduce from 'src/components/Introduce'
 import MeetOurTeam from 'src/components/MeetOurTeam'
+import OurProduct from 'src/components/OurProduct'
 
 const App = () => {
   return (
@@ -33,7 +34,7 @@ const App = () => {
       </LazyShow>
       <LazyShow>
         {/* <Product /> */}
-        <MeetOurTeam/>
+        <OurProduct/>
 
       </LazyShow>
       <LazyShow>

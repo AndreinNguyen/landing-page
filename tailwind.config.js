@@ -35,6 +35,7 @@ module.exports = {
         tertiary: '#99a0a3',
         border: '#1a2e35',
         background: '#000514',
+        background2: "#E9E9E9",
       },
       height: {
         "65vh": "65vh"
@@ -45,9 +46,13 @@ module.exports = {
       backgroundImage: {
         "test": "#ec4755",
         'hero-pattern': "url('/assets/images/background.png')",
+        'product': "url('/assets/images/Product1.png')",
       },
       backgroundPosition: {
         'bottom-custom': 'center bottom -7rem',
+      },
+      boxShadow: {
+        'productInfo': '0px 40px 32px -24px rgba(15, 15, 15, 0.12)',
       },
       keyframes: {
         vote: {
