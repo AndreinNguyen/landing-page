@@ -20,8 +20,16 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      'mobile': '700px',
+      'desktop': '1330px',
+    },
     extend: {
       colors: {
+        whiteCustom: "#F2F2F2",
         primary: '#ec4755',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
