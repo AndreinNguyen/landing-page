@@ -3,33 +3,6 @@ import Image from 'next/image'
 import member1 from 'public/assets/images/Member1.png';
 
 const MeetOurTeam = () => {
-  const pricing = {
-    title: 'Pricing',
-    items: [
-      {
-        name: 'Free',
-        price: '$0',
-        priceDetails: 'for one user',
-        features: ['1 user', 'Basic Support', '1 GB of storage', 'Email support'],
-      },
-      {
-        name: 'Pro',
-        price: '$15',
-        priceDetails: 'per user',
-
-        features: ['5 users', 'Priority Support', '10 GB of storage', 'Phone and Email support'],
-      },
-      {
-        name: 'Enterprise',
-        price: '$29',
-        priceDetails: 'per user',
-        features: ['50 users', '24/7 Support', '100 GB of storage', 'Phone and Email support'],
-      },
-    ],
-  }
-  const { items } = pricing
-  const [firstPlan] = items
-
   return (
     <section className={`bg-background py-8`} id="pricing">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>

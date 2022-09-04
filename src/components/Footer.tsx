@@ -5,7 +5,7 @@ import config from '../config/index.json'
 const Footer = () => {
   const { company, footer } = config
   const { logo, name: companyName } = company
-  const { description, sections } = footer
+  const { sections } = footer
 
   return (
     <div
