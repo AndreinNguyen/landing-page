@@ -45,7 +45,7 @@ const MeetOurTeam = () => {
         </div>
         <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
           {[0, 1, 2, 3, 4].map((el) => (
-            <div className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-background2 rounded-xl mt-4 `}>
+            <div key={el} className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-background2 rounded-xl mt-4 `}>
               <div className="flex justify-end px-4 pt-4">
                 <div
                   id="dropdown"
