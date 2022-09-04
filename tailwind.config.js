@@ -30,6 +30,7 @@ module.exports = {
     extend: {
       colors: {
         whiteCustom: "#F2F2F2",
+        blackCustom: "#000514",
         primary: '#ec4755',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
@@ -47,6 +48,7 @@ module.exports = {
         "test": "#ec4755",
         'hero-pattern': "url('/assets/images/background.png')",
         'product': "url('/assets/images/Product1.png')",
+        'footer': "url('/assets/images/backgroundFooter.png')",
       },
       backgroundPosition: {
         'bottom-custom': 'center bottom -7rem',
