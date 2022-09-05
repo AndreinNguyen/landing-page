@@ -13,7 +13,7 @@ import OurProduct from 'src/components/OurProduct'
 const App = () => {
   return (
     <div className={`bg-background grid gap-y-1 overflow-hidden font-whyte text-500`}>
-      <div className="bg-hero-pattern bg-no-repeat bg-bottom bg-mobile md:bg-desktop ">
+      <div id="banner" className="bg-hero-pattern bg-no-repeat bg-bottom bg-mobile md:bg-desktop ">
         <div className="max-w-7xl mx-auto h-[600px] md:h-[900px] relative z-10">
           <MenuComponent />
           <Banner />
@@ -22,8 +22,6 @@ const App = () => {
       <LazyShow>
         <>
           <Introduce/>
-          {/* <MainHeroImage /> */}
-          {/* <MainHero /> */}
         </>
       </LazyShow>
       <LazyShow>

@@ -4,17 +4,17 @@ import member1 from 'public/assets/images/Member1.png';
 
 const MeetOurTeam = () => {
   return (
-    <section className={`bg-background py-8`} id="pricing">
+    <section className={`bg-background py-8`} id="our-team">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
         <div className="align-middle">
           <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom`}>
             Meet out Team
           </h1>
-          <p className={`max-w-lg text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8`}>
+          {/* <p className={`max-w-lg text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8`}>
             Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat auctor aliquet mauris nisi
             ultrices hac ut commodo, aenean aliquam mi per diam senectus, sapien dictumst proin morbi commodo et
             vehicula, consequat fusce ut erat pellentesque himenaeos, porta lorem dictumst per primis, praesent
-          </p>
+          </p> */}
         </div>
         <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
           {[0, 1, 2, 3, 4].map((el) => (
