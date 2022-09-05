@@ -34,3 +34,4 @@ local
 # vercel
 .vercel
 _static
+_static.tar.gz

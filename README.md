@@ -1,8 +1,30 @@
+##### Deploy static page
+
+You can see the results locally in production mode with:
+
+```
+yarn build:zip
+```
+
+```
+yarn deploy:zip
+```
+
+If you not found http-serve, run
+
+```
+npm install http-server -g  
+```
+
+App will be run on PORT:8080
+
+The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
+
+You can create an optimised production build with:
+
 # React.js landing page template v2
 
-## <a href="https://react-landing-page-template-2021.vercel.app/"> LIVE DEMO</a>
-
-<img src="public/assets/gifs/demo.gif" width="100%" height="auto" />
+## <a href="https://landing-page-mb96i7dq2-andreinnguyen.vercel.app/"> LIVE DEMO</a>
 
 ### Description
 
