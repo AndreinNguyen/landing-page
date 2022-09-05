@@ -28,7 +28,7 @@ const MeetOurTeam = () => {
   })
 
   return (
-    <section className={`bg-background py-8`} id="our-team">
+    <section className={`bg-background pt-8 md:pb-8`} id="our-team">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
         <div className="relative align-middle">
           <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom z-50`}>
@@ -45,7 +45,7 @@ const MeetOurTeam = () => {
             vehicula, consequat fusce ut erat pellentesque himenaeos, porta lorem dictumst per primis, praesent
           </p> */}
         </div>
-        <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 z-50`}>
+        <div className={`flex flex-col sm:flex-row justify-center md:pt-12 my-12 sm:my-4 z-50`}>
           {teams.items.map((el: any) => (
             <div
               key={el.name}

@@ -6,7 +6,7 @@ const OurProduct = () => {
   const { products } = config
 
   return (
-    <section className={`bg-background py-8`} id="products">
+    <section className={`bg-background md:py-8`} id="products">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
         <div className="align-middle md:max-w-6xl md:mx-auto">
           <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom`}>
@@ -18,7 +18,7 @@ const OurProduct = () => {
             {products.description}
           </p> */}
         </div>
-        <div className={`flex flex-col sm:flex-row justify-around pt-12 my-12 sm:my-4`}>
+        <div className={`flex flex-col sm:flex-row justify-around md:pt-12 my-12 sm:my-4`}>
           {products.items.map((el) => (
             <React.Fragment key={el.name}>
               <div
