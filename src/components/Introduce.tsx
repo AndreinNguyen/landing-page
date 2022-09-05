@@ -1,6 +1,9 @@
 import React from 'react'
+
 import Image from 'next/image'
+
 import ContentImg from 'public/assets/images/Content.png'
+
 import config from '../config/index.json'
 
 const Introduce = () => {
@@ -24,9 +27,7 @@ const Introduce = () => {
               <h4 className={`text-2xl md:text-4xl text-whiteCustom font-medium leading-none mb-3`}>
                 {introduce.subtitle2}
               </h4>
-              <p className={`text-base md:text-2xl text-whiteCustom  font-normal mb-8`}>
-                {introduce.description}
-              </p>
+              <p className={`text-base md:text-2xl text-whiteCustom  font-normal mb-8`}>{introduce.description}</p>
             </div>
           </div>
         </div>

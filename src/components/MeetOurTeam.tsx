@@ -1,6 +1,8 @@
 import React from 'react'
+
 import Image from 'next/image'
-import member1 from 'public/assets/images/Member1.png';
+
+import member1 from 'public/assets/images/Member1.png'
 
 const MeetOurTeam = () => {
   return (
@@ -57,8 +59,8 @@ const MeetOurTeam = () => {
                   className="mb-3 rounded-full shadow-lg"
                   src={member1}
                   alt="Bonnie image"
-                  width='200px'
-                  height='200px'
+                  width="200px"
+                  height="200px"
                 />
                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>

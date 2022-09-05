@@ -1,14 +1,15 @@
 import React from 'react'
 
+import Introduce from 'src/components/Introduce'
+import MeetOurTeam from 'src/components/MeetOurTeam'
+import OurProduct from 'src/components/OurProduct'
+
 import Analytics from '../components/Analytics'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import MenuComponent from '../components/Header'
 import LazyShow from '../components/LazyShow'
 import Timeline from '../components/Timeline'
-import Introduce from 'src/components/Introduce'
-import MeetOurTeam from 'src/components/MeetOurTeam'
-import OurProduct from 'src/components/OurProduct'
 
 const App = () => {
   return (
@@ -21,19 +22,16 @@ const App = () => {
       </div>
       <LazyShow>
         <>
-          <Introduce/>
+          <Introduce />
         </>
       </LazyShow>
       <LazyShow>
         <>
-          <MeetOurTeam/>
-          {/* <Teams /> */}
+          <MeetOurTeam />
         </>
       </LazyShow>
       <LazyShow>
-        {/* <Product /> */}
-        <OurProduct/>
-
+        <OurProduct />
       </LazyShow>
       <LazyShow>
         <>
