@@ -11,7 +11,6 @@ class MyDocument extends Document {
         <Head>
           <title>Savvy AI</title>
           <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-          <link href="/assets/Whyte-Regular.ttf&display=swap" />
         </Head>
         <body>
           <Main />
