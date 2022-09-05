@@ -16,7 +16,7 @@ const Footer = () => {
         <div>
           <img src={logo} alt={companyName} className="h-10 md:h-24 pt-2 md:pt-8" />
         </div>
-        <div className='mt-2'>
+        <div className="mt-2">
           <p className={`max-w-lg text-center mx-auto text-base font-normal mb-8`}>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
             velit mollit. ioadiosdasidasiodjasd

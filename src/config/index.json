@@ -42,34 +42,35 @@
     "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat auctor aliquet mauris nisi ultrices hac ut commodo, aenean aliquam mi per diam senectus, sapien dictumst proin morbi commodo et vehicula, ",
     "items": [
       {
-        "rank": "COO",
+        "position": "CTO",
         "name": "Tue Nguyen",
-        "icon": "/assets/images/product1.jpg"
+        "icon": "/assets/images/TueNguyen.png"
       },
       {
-        "rank": "CFO",
+        "position": "CFO",
         "name": "Chi Phan",
-        "icon": "/assets/images/product2.jpg"
+        "icon": "/assets/images/ChiPhan.png"
       },
       {
-        "rank": "CEO",
-        "name": "Tran Hieu",
-        "icon": "/assets/images/product1.jpg"
+        "position": "CEO",
+        "name": "Van Dang",
+        "icon": "/assets/images/VanDang.png"
       },
       {
-        "rank": "CPO",
-        "name": "Nguyen Nguyen",
-        "icon": "/assets/images/ts.png"
+        "position": "Mentor",
+        "name": "Vinh Le",
+        "icon": "/assets/images/VinhLe.png"
       },
       {
-        "rank": "CTO",
-        "name": "Ngan QC",
-        "icon": "/assets/images/ts.png"
+        "position": "COO",
+        "name": "Alex",
+        "icon": "/assets/images/Alex.png"
       }
     ]
   },
   "products": {
     "title": "Our Products",
+    "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat aucto",
     "items": [
       {
         "name": "Mind",
@@ -90,6 +91,32 @@
         "name": "Xah",
         "description": "Hello",
         "icon": "/assets/images/product1.jpg"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Timeline",
+    "description": "Opportunities don't happen, you create them ",
+    "items": [
+      {
+        "year": "2022",
+        "title": "The journey begins",
+        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+      },
+      {
+        "year": "2023",
+        "title": "The journey begins",
+        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+      },
+      {
+        "year": "2024",
+        "title": "The journey begins",
+        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+      },
+      {
+        "year": "2025",
+        "title": "The journey begins",
+        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
       }
     ]
   },

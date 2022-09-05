@@ -1,16 +1,16 @@
 import React from 'react'
 
-import Image from 'next/image'
-
-import member1 from 'public/assets/images/Member1.png'
+import config from '../config/index.json'
 
 const MeetOurTeam = () => {
+  const { teams } = config
+
   return (
     <section className={`bg-background py-8`} id="our-team">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
         <div className="align-middle">
           <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom`}>
-            Meet out Team
+            {teams.title}
           </h1>
           {/* <p className={`max-w-lg text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8`}>
             Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat auctor aliquet mauris nisi
@@ -19,8 +19,11 @@ const MeetOurTeam = () => {
           </p> */}
         </div>
         <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
-          {[0, 1, 2, 3, 4].map((el) => (
-            <div key={el} className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-background2 rounded-xl mt-4 `}>
+          {teams.items.map((el) => (
+            <div
+              key={el.name}
+              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-background2 rounded-xl mt-4 `}
+            >
               <div className="flex justify-end px-4 pt-4">
                 <div
                   id="dropdown"
@@ -55,15 +58,15 @@ const MeetOurTeam = () => {
                 </div>
               </div>
               <div className="flex flex-col items-center pb-5">
-                <Image
+                <img
                   className="mb-3 rounded-full shadow-lg"
-                  src={member1}
+                  src={el.icon}
                   alt="Bonnie image"
                   width="200px"
                   height="200px"
                 />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Visual Designer</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{el.position}</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">{el.name}</span>
               </div>
               {/* <div className={`flex-1 text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
                 <div className={`p-8 text-3xl font-bold text-center border-b-4`}>{firstPlan?.name}</div>
