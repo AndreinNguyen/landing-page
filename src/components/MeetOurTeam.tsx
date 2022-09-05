@@ -5,6 +5,28 @@ import config from '../config/index.json'
 const MeetOurTeam = () => {
   const { teams } = config
 
+  // Add background color
+  Object.defineProperty(teams.items[0], 'backgroundColor', {
+    value: '#828282',
+    configurable: true,
+  })
+  Object.defineProperty(teams.items[1], 'backgroundColor', {
+    value: '#4F4F4F',
+    configurable: true,
+  })
+  Object.defineProperty(teams.items[2], 'backgroundColor', {
+    value: '#0037C2',
+    configurable: true,
+  })
+  Object.defineProperty(teams.items[3], 'backgroundColor', {
+    value: '#4F4F4F',
+    configurable: true,
+  })
+  Object.defineProperty(teams.items[4], 'backgroundColor', {
+    value: '#828282',
+    configurable: true,
+  })
+
   return (
     <section className={`bg-background py-8`} id="our-team">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
@@ -19,10 +41,11 @@ const MeetOurTeam = () => {
           </p> */}
         </div>
         <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
-          {teams.items.map((el) => (
+          {teams.items.map((el: any) => (
             <div
               key={el.name}
-              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-background2 rounded-xl mt-4 `}
+              style={{ backgroundColor: `${el.backgroundColor}` }}
+              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 rounded-xl mt-4 `}
             >
               <div className="flex justify-end px-4 pt-4">
                 <div
@@ -33,7 +56,7 @@ const MeetOurTeam = () => {
                     <li>
                       <a
                         href="#"
-                        className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                        className="block py-2 px-4 text-s hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                       >
                         Edit
                       </a>
@@ -41,7 +64,7 @@ const MeetOurTeam = () => {
                     <li>
                       <a
                         href="#"
-                        className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                        className="block py-2 px-4 text-s hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                       >
                         Export Data
                       </a>
@@ -65,8 +88,8 @@ const MeetOurTeam = () => {
                   width="200px"
                   height="200px"
                 />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{el.position}</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">{el.name}</span>
+                <h5 className="mb-1 text-xl font-medium text-whiteCustom2">{el.position}</h5>
+                <span className="text-sm text-whiteCustom2">{el.name}</span>
               </div>
               {/* <div className={`flex-1 text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
                 <div className={`p-8 text-3xl font-bold text-center border-b-4`}>{firstPlan?.name}</div>

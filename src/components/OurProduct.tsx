@@ -22,7 +22,8 @@ const OurProduct = () => {
           {products.items.map((el) => (
             <React.Fragment key={el.name}>
               <div
-                className={`relative flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-product bg-cover bg-no-repeat rounded-xl mt-4 h-[400px] bg-center box-border`}
+                style={{ backgroundImage: `url('${el.background}')` }}
+                className={`relative flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-cover bg-no-repeat rounded-xl mt-4 h-[400px] bg-center box-border`}
               >
                 <div className="absolute m-2 bottom-0 w-[calc(100%-16px)] bg-gradient-to-b from-[#222222] to-[rgba(0, 0, 0, 0.25)] rounded-2xl h-20 shadow-productInfo p-2">
                   <h5 className="mb-1 text-xl font-medium text-whiteCustom dark:text-white">{el.name}</h5>

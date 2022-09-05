@@ -61,7 +61,7 @@
         "icon": "/assets/images/VanDang.png"
       },
       {
-        "position": "Mentor",
+        "position": "Advisor",
         "name": "Vinh Le",
         "icon": "/assets/images/VinhLe.png"
       },
@@ -77,24 +77,24 @@
     "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat aucto",
     "items": [
       {
-        "name": "Mind",
-        "description": "Oh",
-        "icon": "/assets/images/product1.jpg"
+        "name": "SavvyDex",
+        "description": "Trade, Farming and Staking SVC",
+        "background": "/assets/images/Product1.png"
       },
       {
-        "name": "Foo",
-        "description": "Hi",
-        "icon": "/assets/images/product1.jpg"
+        "name": "SavvyBird",
+        "description": "Game, Marketplace, NFT",
+        "background": "/assets/images/Product1.png"
       },
       {
-        "name": "Lead",
-        "description": "Woa",
-        "icon": "/assets/images/product1.jpg"
+        "name": "Savvy Fitness",
+        "description": "Coming Soon",
+        "background": "/assets/images/Product1.png"
       },
       {
-        "name": "Xah",
-        "description": "Hello",
-        "icon": "/assets/images/product1.jpg"
+        "name": "Savvy Fitness",
+        "description": "Coming Soon",
+        "background": "/assets/images/Product1.png"
       }
     ]
   },

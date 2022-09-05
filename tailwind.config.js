@@ -3,10 +3,10 @@ module.exports = {
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
   darkMode: false,
   theme: {
-    "fontFamily": {
-      'sans': ['ui-sans-serif', 'system-ui'],
-      "krona-one": "[Krona One]",
-      "whyte": "[Whyte]"
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui'],
+      'krona-one': '[Krona One]',
+      whyte: '[Whyte]',
     },
     fontSize: {
       xs: '0.75rem',
@@ -21,40 +21,41 @@ module.exports = {
       '6xl': '4rem',
     },
     backgroundSize: {
-      'auto': 'auto',
-      'cover': 'cover',
-      'contain': 'contain',
-      'mobile': '700px',
-      'desktop': '1330px',
+      auto: 'auto',
+      cover: 'cover',
+      contain: 'contain',
+      mobile: '700px',
+      desktop: '1330px',
     },
     extend: {
       colors: {
-        whiteCustom: "#F2F2F2",
-        blackCustom: "#000514",
+        whiteCustom: '#F2F2F2',
+        whiteCustom2: '#FCFCFC',
+        blackCustom: '#000514',
         primary: '#ec4755',
         secondary: '#a12c34',
         tertiary: '#99a0a3',
         border: '#1a2e35',
         background: '#000514',
-        background2: "#E9E9E9",
+        background2: '#E9E9E9',
       },
       height: {
-        "65vh": "65vh"
+        '65vh': '65vh',
       },
       animation: {
         vote: 'vote 1s ease-in-out',
       },
       backgroundImage: {
-        "test": "#ec4755",
+        test: '#ec4755',
         'hero-pattern': "url('/assets/images/background.png')",
-        'product': "url('/assets/images/Product1.png')",
-        'footer': "url('/assets/images/backgroundFooter.png')",
+        product: "url('/assets/images/Product1.png')",
+        footer: "url('/assets/images/backgroundFooter.png')",
       },
       backgroundPosition: {
         'bottom-custom': 'center bottom -7rem',
       },
       boxShadow: {
-        'productInfo': '0px 40px 32px -24px rgba(15, 15, 15, 0.12)',
+        productInfo: '0px 40px 32px -24px rgba(15, 15, 15, 0.12)',
       },
       keyframes: {
         vote: {
@@ -73,4 +74,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-};
+}
