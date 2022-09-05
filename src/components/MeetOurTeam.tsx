@@ -30,17 +30,22 @@ const MeetOurTeam = () => {
   return (
     <section className={`bg-background py-8`} id="our-team">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
-        <div className="align-middle">
-          <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom`}>
+        <div className="relative align-middle">
+          <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom z-50`}>
             {teams.title}
           </h1>
+          <div
+            className={`absolute opacity-70 transform translate-x-1/5 -translate-y-1/2 md:-translate-y-1/2 md:translate-x-1/4 z-0`}
+          >
+            <img className="h-full md:w-1/2" src="/assets/images/circle-bg-2.png" alt="Introduce" />
+          </div>
           {/* <p className={`max-w-lg text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8`}>
             Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat auctor aliquet mauris nisi
             ultrices hac ut commodo, aenean aliquam mi per diam senectus, sapien dictumst proin morbi commodo et
             vehicula, consequat fusce ut erat pellentesque himenaeos, porta lorem dictumst per primis, praesent
           </p> */}
         </div>
-        <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4`}>
+        <div className={`flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 z-50`}>
           {teams.items.map((el: any) => (
             <div
               key={el.name}
