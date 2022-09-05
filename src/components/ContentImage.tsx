@@ -1,6 +1,6 @@
-import Image from 'next/image';
+import Image from 'next/image'
 
-import ContentImg from 'public/assets/images/Content.png';
+import ContentImg from 'public/assets/images/Content.png'
 
 const MainHeroImage = () => {
   return (
@@ -11,7 +11,7 @@ const MainHeroImage = () => {
         alt="Savvy image"
       />
     </div>
-  );
-};
+  )
+}
 
-export default MainHeroImage;
+export default MainHeroImage
