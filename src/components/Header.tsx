@@ -18,7 +18,7 @@ const Menu = () => {
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <img alt="logo" className="h-12 md:h-16" src={logo} />
+                <img alt="logo" className="h-8 md:h-12" src={logo} />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <Popover.Button

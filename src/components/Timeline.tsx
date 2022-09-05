@@ -20,8 +20,8 @@ const Timeline = () => {
     <section className={`bg-background md:py-8`} id="timeline">
       <div className={`relative container max-w-5xl mx-auto m-8`}>
         <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
-          <h1 className={`w-full my-2 text-5xl font-bold leading-tight text-center text-white`}>{timeline.title}</h1>
-          <p className={`max-w-lg text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8`}>
+          <h1 className={`w-full my-2 text-4xl font-bold leading-tight text-center text-white`}>{timeline.title}</h1>
+          <p className={`max-w-lg text-center mx-auto text-base md:text-xl text-whiteCustom font-normal mb-8`}>
             {timeline.description}
           </p>
           <TimelineMui

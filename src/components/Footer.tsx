@@ -12,7 +12,7 @@ const Footer = () => {
       <div id="footer" className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 ">
         <div className="flex flex-col items-center justify-center text-whiteCustom">
           <div>
-            <img src={logo} alt={companyName} className="h-10 md:h-24 pt-2 md:pt-8" />
+            <img src={logo} alt={companyName} className="h-10 md:h-24 py-2 md:py-8" />
           </div>
           <div className="mt-2">
             <p className={`max-w-lg text-center mx-auto text-base font-normal mb-8`}>
