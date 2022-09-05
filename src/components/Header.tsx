@@ -44,9 +44,9 @@ const Menu = () => {
                 {item.name}
               </Link>
             ))}
-            <Link to="timeline" smooth={true} duration={1000} className={`font-medium text-white hover:text-secondary`}>
+            {/* <Link to="timeline" smooth={true} duration={1000} className={`font-medium text-white hover:text-secondary`}>
               Timeline
-            </Link>
+            </Link> */}
           </div>
         </nav>
       </div>
