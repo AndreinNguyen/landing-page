@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
-      whyte: '[Whyte]',
+      whyte: ['Whyte'],
+      poppins: ['Poppins', 'normal'],
     },
     fontSize: {
       xs: '0.75rem',

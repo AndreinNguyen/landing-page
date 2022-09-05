@@ -1,13 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
 
+/* @font-face {
+  font-family: Whyte;
+  src: url('/assets/Whyte-Regular.ttf');
+} */
+
+/* @font-face {
+  font-family: Poppins;
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+} */
 
 :root {
   --color-primary: #fff;
   /* --color-secondary: #f3f0f0; */
   /* --color-tertiaty: #99a0a3; */
-  font-family: Whyte;
 }
 
 a {

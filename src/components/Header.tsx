@@ -13,12 +13,12 @@ const Menu = () => {
 
   return (
     <Popover className="menu--popover">
-      <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+      <div className="relative pt-6 px-4 sm:px-6 lg:px-8 font-poppins">
         <nav className="relative flex items-center justify-between h-10" aria-label="Global">
           <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <img alt="logo" className="h-7 md:h-16" src={logo} />
+                <img alt="logo" className="h-12 md:h-16" src={logo} />
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <Popover.Button
@@ -87,7 +87,7 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                  className="block px-3 py-2 rounded-md text-base font-medium text-whiteCustom2 hover:bg-gray-50"
                 >
                   {item.name}
                 </Link>
