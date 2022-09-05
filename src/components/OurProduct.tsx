@@ -9,14 +9,14 @@ const OurProduct = () => {
     <section className={`bg-background py-8`} id="products">
       <div className={`container max-w-7xl mx-auto p-6 pb-12`}>
         <div className="align-middle md:max-w-6xl md:mx-auto">
-          <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center md:text-left text-whiteCustom`}>
+          <h1 className={`w-full my-2 text-4xl font-medium leading-tight text-center text-whiteCustom`}>
             {products.title}
           </h1>
-          <p
+          {/* <p
             className={`max-w-lg md:max-w-none text-center mx-auto text-base md:text-2xl text-whiteCustom font-normal mb-8 md:text-left`}
           >
             {products.description}
-          </p>
+          </p> */}
         </div>
         <div className={`flex flex-col sm:flex-row justify-around pt-12 my-12 sm:my-4`}>
           {products.items.map((el) => (

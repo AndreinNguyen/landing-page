@@ -77,13 +77,13 @@
     "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat aucto",
     "items": [
       {
-        "name": "SavvyDex",
-        "description": "Trade, Farming and Staking SVC",
-        "background": "/assets/images/Product1.png"
-      },
-      {
         "name": "SavvyBird",
         "description": "Game, Marketplace, NFT",
+        "background": "/assets/images/savvybird.png"
+      },
+      {
+        "name": "Savvydex",
+        "description": "Trade, Farming and Staking SVC",
         "background": "/assets/images/Product1.png"
       },
       {
