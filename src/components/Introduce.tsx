@@ -1,9 +1,5 @@
 import React from 'react'
 
-import Image from 'next/image'
-
-import ContentImg from 'public/assets/images/Content.png'
-
 import config from '../config/index.json'
 
 const Introduce = () => {
@@ -14,7 +10,7 @@ const Introduce = () => {
       <div className={`container max-w-7xl mx-auto`}>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 pr-6 md:p-6`}>
-            <Image className="h-6/6" src={ContentImg} alt="Introduce" />
+            <img className="h-6/6" src="/assets/images/Content.png" alt="Introduce" />
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-3 flex justify-center items-center`}>
             <div className={`align-middle`}>
