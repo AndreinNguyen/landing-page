@@ -5,7 +5,6 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
-      'krona-one': '[Krona One]',
       whyte: '[Whyte]',
     },
     fontSize: {
