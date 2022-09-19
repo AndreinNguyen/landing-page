@@ -11,21 +11,21 @@ const MeetOurTeam = () => {
     configurable: true,
   })
   Object.defineProperty(teams.items[1], 'backgroundColor', {
-    value: '#4F4F4F',
-    configurable: true,
-  })
-  Object.defineProperty(teams.items[2], 'backgroundColor', {
     value: '#0037C2',
     configurable: true,
   })
-  Object.defineProperty(teams.items[3], 'backgroundColor', {
-    value: '#4F4F4F',
-    configurable: true,
-  })
-  Object.defineProperty(teams.items[4], 'backgroundColor', {
+  Object.defineProperty(teams.items[2], 'backgroundColor', {
     value: '#828282',
     configurable: true,
   })
+  // Object.defineProperty(teams.items[3], 'backgroundColor', {
+  //   value: '#4F4F4F',
+  //   configurable: true,
+  // })
+  // Object.defineProperty(teams.items[4], 'backgroundColor', {
+  //   value: '#828282',
+  //   configurable: true,
+  // })
 
   return (
     <section className={`bg-background pt-8 md:pb-8`} id="our-team">

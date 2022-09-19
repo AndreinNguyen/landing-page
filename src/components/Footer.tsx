@@ -5,7 +5,7 @@ import config from '../config/index.json'
 const Footer = () => {
   const { company, footer } = config
   const { logo, name: companyName } = company
-  const { sections } = footer
+  const { sections, description } = footer
 
   return (
     <div className="bg-footer bg-center bg-cover bg-no-repeat py-20">
@@ -15,10 +15,7 @@ const Footer = () => {
             <img src={logo} alt={companyName} className="h-10 md:h-24 py-2 md:py-8" />
           </div>
           <div className="mt-2">
-            <p className={`max-w-lg text-center mx-auto text-base font-normal mb-8`}>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-              enim velit mollit. ioadiosdasidasiodjasd
-            </p>
+            <p className={`max-w-lg text-center mx-auto text-base font-normal mb-8`}>{description}</p>
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
             {sections.map((section, index) => (

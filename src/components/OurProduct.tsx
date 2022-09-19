@@ -21,15 +21,18 @@ const OurProduct = () => {
         <div className={`flex flex-col sm:flex-row justify-around md:pt-12 my-12 sm:my-4`}>
           {products.items.map((el) => (
             <React.Fragment key={el.name}>
-              <div
+              <a
+                target={el.link ? '_blank' : '_self'}
+                href={el.link ? el.link : '#'}
                 style={{ backgroundImage: `url('${el.background}')` }}
-                className={`relative flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-cover bg-no-repeat rounded-xl mt-4 h-[400px] bg-center box-border`}
+                className={`relative cursor-pointer flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 bg-cover bg-no-repeat rounded-xl mt-4 h-[400px] bg-center box-border`}
+                rel="noreferrer"
               >
-                <div className="absolute m-2 bottom-0 w-[calc(100%-16px)] bg-gradient-to-b from-[#222222] to-[rgba(0, 0, 0, 0.25)] rounded-2xl h-20 shadow-productInfo p-2">
+                <div className="absolute  m-2 bottom-0 w-[calc(100%-16px)] bg-gradient-to-b from-[#222222] to-[rgba(0, 0, 0, 0.25)] rounded-2xl h-20 shadow-productInfo p-2">
                   <h5 className="mb-1 text-xl font-medium text-whiteCustom dark:text-white">{el.name}</h5>
                   <span className="text-xs text-whiteCustom dark:text-gray-400">{el.description}</span>
                 </div>
-              </div>
+              </a>
             </React.Fragment>
           ))}
         </div>

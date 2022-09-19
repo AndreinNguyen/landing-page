@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Savvycom AI",
+    "name": "Savvycom.ai",
     "logo": "/assets/images/logo.svg"
   },
   "navigation": [
@@ -39,11 +39,11 @@
     "title": "Savvycom.ai",
     "subtitle1": "An AI & BLOCKCHAIN",
     "subtitle2": "disruptive integration",
-    "description": "SavvycomAI is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact changes on the societal level. "
+    "description": "Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
   },
   "teams": {
     "title": "Meet our team",
-    "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat auctor aliquet mauris nisi ultrices hac ut commodo, aenean aliquam mi per diam senectus, sapien dictumst proin morbi commodo et vehicula, ",
+    "description": "Experienced and passionate engineers of blockchain and AI technologies",
     "items": [
       {
         "position": "CTO",
@@ -51,50 +51,44 @@
         "icon": "/assets/images/TueNguyen.png"
       },
       {
-        "position": "CFO",
+        "position": "Solution Architech",
         "name": "Chi Phan",
         "icon": "/assets/images/ChiPhan.png"
-      },
-      {
-        "position": "CEO",
-        "name": "Van Dang",
-        "icon": "/assets/images/VanDang.png"
       },
       {
         "position": "Advisor",
         "name": "Vinh Le",
         "icon": "/assets/images/VinhLe.png"
-      },
-      {
-        "position": "COO",
-        "name": "Alex",
-        "icon": "/assets/images/Alex.png"
       }
     ]
   },
   "products": {
     "title": "Our Products",
-    "description": "Scelerisque sit orci tempor inceptos felis, tristique consectetur fringilla, erat aucto",
+    "description": "AI & Blockchain integration beyond the business sphere, aspiring to enact good changes on the societal level.",
     "items": [
       {
-        "name": "SavvyBird",
+        "name": "Savvybird",
         "description": "Game, Marketplace, NFT",
-        "background": "/assets/images/savvybird.png"
+        "background": "/assets/images/savvybird.png",
+        "link": "https://game.savvycom.ai/"
       },
       {
         "name": "Savvydex",
-        "description": "Trade, Farming and Staking SVC",
-        "background": "/assets/images/Product1.png"
+        "description": "Decentralized Exchange in multiple blockchain and cross-chain",
+        "background": "/assets/images/savvydex.png",
+        "link": "https://dex.savvycom.ai/"
       },
       {
         "name": "Savvy Fitness",
-        "description": "Coming Soon",
-        "background": "/assets/images/Product1.png"
+        "description": "Coming soon",
+        "background": "/assets/images/savvyfitness.png",
+        "link": ""
       },
       {
-        "name": "Savvy Fitness",
-        "description": "Coming Soon",
-        "background": "/assets/images/Product1.png"
+        "name": "Savvy Entertainment",
+        "description": "Coming soon",
+        "background": "/assets/images/savvyentertaiment.png",
+        "link": ""
       }
     ]
   },
@@ -103,24 +97,34 @@
     "description": "Opportunities don't happen, you create them ",
     "items": [
       {
-        "year": "2022",
+        "year": "Jan, 2021",
         "title": "The journey begins",
-        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+        "description": "Passionate and experienced AI and Blockchain engineers promote innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
       },
       {
-        "year": "2023",
-        "title": "The journey begins",
-        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+        "year": "Mar, 2022",
+        "title": "Savvycoin",
+        "description": "SVC is released in multiple chains for Savvy community providing flexible, fast and low transaction fees for payments, rewards, and investments."
       },
       {
-        "year": "2024",
-        "title": "The journey begins",
-        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+        "year": "Sep, 2022",
+        "title": "Savvydex",
+        "description": "A decentralized plaftorm for trading, farming, staking cryptocurrencies in a flexible and efficient way. The cross-chain technology is demonstrated!"
       },
       {
-        "year": "2025",
-        "title": "The journey begins",
-        "description": "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+        "year": "Sep, 2022",
+        "title": "Savvybird",
+        "description": "The first play-to-earn game for our GameFi ecosystem."
+      },
+      {
+        "year": "Jun, 2023",
+        "title": "Savvy Fitness",
+        "description": "Our action-to-earn AI & Blockchain integration for fitness."
+      },
+      {
+        "year": "Jan, 2024",
+        "title": "Savvy Music",
+        "description": "Our entertainment-to-earn AI & Blockchain integration for music."
       }
     ]
   },
@@ -139,6 +143,6 @@
         "name": "Contact"
       }
     ],
-    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ioadiosdasidasiodjasd"
+    "description": "A disruptive integration of AI and Blockchain technologies to enact good changes on the societal level."
   }
 }
