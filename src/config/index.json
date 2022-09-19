@@ -59,6 +59,26 @@
         "position": "Advisor",
         "name": "Vinh Le",
         "icon": "/assets/images/VinhLe.png"
+      },
+      {
+        "position": "Blockchain developer",
+        "name": "Andrein Nguyen",
+        "icon": "/assets/images/AndreinNguyen.png"
+      },
+      {
+        "position": "Blockchain developer",
+        "name": "Hieu Tran",
+        "icon": "/assets/images/HieuTran.png"
+      },
+      {
+        "position": "Blockchain developer",
+        "name": "Tuan Bui",
+        "icon": "/assets/images/TuanBui.png"
+      },
+      {
+        "position": "Blockchain developer",
+        "name": "Thanh Nguyen",
+        "icon": "/assets/images/ThanhNguyen.png"
       }
     ]
   },

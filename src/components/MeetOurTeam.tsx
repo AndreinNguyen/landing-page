@@ -46,11 +46,81 @@ const MeetOurTeam = () => {
           </p> */}
         </div>
         <div className={`flex flex-col sm:flex-row justify-center md:pt-12 my-12 sm:my-4 z-50`}>
-          {teams.items.map((el: any) => (
+          {teams.items.slice(0, 3).map((el: any) => (
             <div
               key={el.name}
-              style={{ backgroundColor: `${el.backgroundColor}` }}
-              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 rounded-xl mt-4 `}
+              // style={{ backgroundColor: `${el.backgroundColor}` }}
+              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 rounded-xl mt-4 bg-[#828282]`}
+            >
+              <div className="flex justify-end px-4 pt-4">
+                <div
+                  id="dropdown"
+                  className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700"
+                >
+                  <ul className="py-1" aria-labelledby="dropdownButton">
+                    <li>
+                      <a
+                        href="#"
+                        className="block py-2 px-4 text-s hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      >
+                        Edit
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block py-2 px-4 text-s hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      >
+                        Export Data
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="block py-2 px-4 text-sm text-red-600 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="flex flex-col items-center pb-5">
+                <img
+                  className="mb-3 rounded-full shadow-lg h-52"
+                  src={el.icon}
+                  alt="Bonnie image"
+                  width="200px"
+                  height="200px"
+                />
+                <h5 className="mb-1 text-xl font-medium text-whiteCustom2">{el.position}</h5>
+                <span className="text-sm text-whiteCustom2">{el.name}</span>
+              </div>
+              {/* <div className={`flex-1 text-gray-600 rounded-t rounded-b-none overflow-hidden shadow`}>
+                <div className={`p-8 text-3xl font-bold text-center border-b-4`}>{firstPlan?.name}</div>
+                <ul className={`w-full text-center text-sm`}>
+                  {firstPlan?.features.map((feature) => (
+                    <li className={`py-4`} key={`${firstPlan.name}-${feature}`}>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </div> */}
+              {/* <div className={`flex-none mt-auto bg-background rounded-b rounded-t-none overflow-hidden shadow p-6`}>
+                <div className={`w-full pt-6 text-3xl text-gray-600 font-bold text-center`}>
+                  {firstPlan?.price}
+                  <span className={`text-base`}> {firstPlan?.priceDetails}</span>
+                </div>
+              </div> */}
+            </div>
+          ))}
+        </div>
+        <div className={`flex flex-col sm:flex-row justify-center md:pt-12 my-12 sm:my-4 z-50`}>
+          {teams.items.slice(3, 7).map((el: any) => (
+            <div
+              key={el.name}
+              // style={{ backgroundColor: `${el.backgroundColor}` }}
+              className={`flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-4 rounded-xl mt-4 bg-[#828282]`}
             >
               <div className="flex justify-end px-4 pt-4">
                 <div
