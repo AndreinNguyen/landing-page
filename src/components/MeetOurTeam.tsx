@@ -87,7 +87,7 @@ const MeetOurTeam = () => {
               </div>
               <div className="flex flex-col items-center pb-5">
                 <img
-                  className="mb-3 rounded-full shadow-lg"
+                  className="mb-3 rounded-full shadow-lg h-52"
                   src={el.icon}
                   alt="Bonnie image"
                   width="200px"
