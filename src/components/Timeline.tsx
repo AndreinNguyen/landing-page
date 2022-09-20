@@ -38,7 +38,7 @@ const Timeline = () => {
                   <Typography variant="h5" component="div">
                     {el.year}
                   </Typography>
-                  <div className="bg-whiteCustom mt-2 text-blackCustom rounded-2xl p-2">
+                  <div className="bg-whiteCustom mt-2 text-blackCustom rounded-2xl p-4">
                     <Typography variant="h6" component="div" fontWeight="600">
                       {el.title}
                     </Typography>
