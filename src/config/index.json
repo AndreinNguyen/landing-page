@@ -147,15 +147,23 @@
     "sections": [
       {
         "name": "Home",
-        "href": "banner"
+        "href": "banner",
+        "link": ""
       },
       {
         "name": "About Us",
-        "href": "about-us"
+        "href": "about-us",
+        "link": ""
+      },
+      {
+        "name": "Team & Policy",
+        "href": "",
+        "link": "https://savvycom.gitbook.io/savvycom.ai/"
       },
       {
         "name": "Contact",
-        "href": "our-team"
+        "href": "our-team",
+        "link": ""
       }
     ],
     "description": "A disruptive integration of AI and Blockchain technologies to enact good changes on the societal level."

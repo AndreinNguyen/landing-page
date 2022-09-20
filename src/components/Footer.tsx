@@ -20,19 +20,30 @@ const Footer = () => {
             <p className={`max-w-lg text-center mx-auto text-base font-normal mb-8`}>{description}</p>
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-            {sections.map((section, index) => (
-              <Link
-                key={`${section.name}-${index}`}
-                spy={true}
-                active="active"
-                smooth={true}
-                duration={1000}
-                to={section.href}
-                className="hover:text-primary text-base cursor-pointer leading-4 dark:text-gray-400 dark:hover:text-white"
-              >
-                {section.name}
-              </Link>
-            ))}
+            {sections.map((section, index) =>
+              !section.link ? (
+                <Link
+                  key={`${section.name}-${index}`}
+                  spy={true}
+                  active="active"
+                  smooth={true}
+                  duration={1000}
+                  to={section.href}
+                  className="hover:text-primary text-base cursor-pointer leading-4 dark:text-gray-400 dark:hover:text-white"
+                >
+                  {section.name}
+                </Link>
+              ) : (
+                <a
+                  href={section.link}
+                  target="_blank"
+                  className="hover:text-primary text-base cursor-pointer leading-4 dark:text-gray-400 dark:hover:text-white"
+                  rel="noreferrer"
+                >
+                  {section.name}
+                </a>
+              ),
+            )}
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
             <p>@Copyright</p>
