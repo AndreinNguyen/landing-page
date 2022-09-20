@@ -46,7 +46,7 @@ const Footer = () => {
             )}
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-            <p>@Copyright</p>
+            <p>©2022 Savvycom AI. All rights reserved.</p>
           </div>
         </div>
       </div>
