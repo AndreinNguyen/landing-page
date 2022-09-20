@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-scroll'
+
 import config from '../config/index.json'
 
 const Footer = () => {
@@ -19,12 +21,17 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
             {sections.map((section, index) => (
-              <a
+              <Link
                 key={`${section.name}-${index}`}
+                spy={true}
+                active="active"
+                smooth={true}
+                duration={1000}
+                to={section.href}
                 className="hover:text-primary text-base cursor-pointer leading-4 dark:text-gray-400 dark:hover:text-white"
               >
                 {section.name}
-              </a>
+              </Link>
             ))}
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">

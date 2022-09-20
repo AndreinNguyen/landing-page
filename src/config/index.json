@@ -146,16 +146,16 @@
   "footer": {
     "sections": [
       {
-        "name": "Home"
+        "name": "Home",
+        "href": "banner"
       },
       {
-        "name": "About Us"
+        "name": "About Us",
+        "href": "about-us"
       },
       {
-        "name": "Team & Policy"
-      },
-      {
-        "name": "Contact"
+        "name": "Contact",
+        "href": "our-team"
       }
     ],
     "description": "A disruptive integration of AI and Blockchain technologies to enact good changes on the societal level."
