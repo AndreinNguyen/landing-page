@@ -22,7 +22,7 @@ class MyDocument extends Document {
             content="Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
           />
           <meta name="theme-color" content="#14393c" />
-          <meta name="twitter:image" content="https://savvycom.ai/assets/images/savvybird.png" />
+          <meta name="twitter:image" content="/savvyai-logo.png" />
           <meta
             name="twitter:description"
             content="Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
