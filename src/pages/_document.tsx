@@ -23,9 +23,9 @@ class MyDocument extends Document {
           />
           <meta name="theme-color" content="#14393c" />
           <meta name="twitter:image" content="https://savvycom.ai/savvyai-logo.png" />
-          <meta name="facebook:image" content="https://savvycom.ai/savvyai-logo.png" />
+          <meta property="og:image" content="https://savvycom.ai/savvyai-logo.png" />
           <meta
-            name="facebook:description"
+            property="og:title"
             content="Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
           />
           <meta
@@ -38,7 +38,7 @@ class MyDocument extends Document {
             content="😊 Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
           />
           <meta
-            name="facebook:title"
+            property="og:title"
             content="😊 Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
           />
         </Head>
