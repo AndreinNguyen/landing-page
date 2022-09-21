@@ -23,6 +23,11 @@ class MyDocument extends Document {
           />
           <meta name="theme-color" content="#14393c" />
           <meta name="twitter:image" content="/savvyai-logo.png" />
+          <meta name="facebook:image" content="/savvyai-logo.png" />
+          <meta
+            name="facebook:description"
+            content="Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
+          />
           <meta
             name="twitter:description"
             content="Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
@@ -30,6 +35,10 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
+            content="😊 Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
+          />
+          <meta
+            name="facebook:title"
             content="😊 Savvycom.ai is an ecosystem that seeks to promote and showcase innovative products made with blockchain and AI technologies. Our projects venture beyond the business sphere, aspiring to enact good changes on the societal level."
           />
         </Head>
